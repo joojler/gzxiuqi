@@ -1,0 +1,1 @@
+sed "s/aws_lang\['\(.*\)'\] = .*/aws_lang\['\1'\] = '\1'/g" lang.js
